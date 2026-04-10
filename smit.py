@@ -15,12 +15,12 @@ from telegram import Update
 from telegram.ext import CallbackContext
 
 # Replace with your actual bot token and admin user ID
-BOT_TOKEN = '8002903145:AAFIDE8eRm1vLBrr8elJbs76WlB8IFsgAwc'
-ADMIN_USER_ID = 5613725800
-CHANNEL_USERNAME = '@DDOSMOD'
+BOT_TOKEN = '7149714912:AAFDri0PhxEQoHtv3nW-YEq115PVeMVrLrI'
+ADMIN_USER_ID = 5879540185
+CHANNEL_USERNAME = '@BLACK_XOWNER'
 
 # MongoDB Connection
-client = MongoClient("mongodb+srv://Rues:xhHopNbDUd6YjXZi@rues.n5arx.mongodb.net/")
+client = MongoClient("mongodb+srv://darklordxyt5_db_user:<FyW49sJtNwvZ14hp>@cluster0.jikytp1.mongodb.net/")
 db = client["premium_bot"]
 users_collection = db["users"]
 keys_collection = db["keys"]
